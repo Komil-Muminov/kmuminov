@@ -11,9 +11,9 @@ const FullScrenn = () => {
 					{/* Top fullscrn */}
 					<div className="fullscr-top-wrapper flex flex-wrap justify-center items-center">
 						<aside className="left-aside flex flex-wrap md:w-1/2 px-4">
-							<h1 className="fullscr-title">Academy</h1>
+							<h1 className="fullscr-title">Academy-tea</h1>
 							<p className="left-top-aside-paragraph mb-5">
-								Добро пожаловать в <strong>academy</strong>, место, где
+								Добро пожаловать в <strong>academy-tea</strong>, место, где
 								рождаются настоящие феномены! Наша команда стремится вдохновить
 								и подготовить вас для достижения невероятных успехов в вашей
 								области. Учиться в Phenomen Team - значит погрузиться в
