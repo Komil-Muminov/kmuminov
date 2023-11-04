@@ -30,7 +30,13 @@ const Navigation = () => {
 								>
 									Courses
 								</Link>
-
+								<Link
+									data-aos="fade-left"
+									className="header-item"
+									to="/FullScrenn"
+								>
+									Courses
+								</Link>
 								<Link
 									data-aos="fade-left"
 									className="header-item"
