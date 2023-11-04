@@ -1,0 +1,64 @@
+* {
+	box-sizing: border-box;
+}
+
+
+
+.fullscr-title {
+	color: #000;
+	font-family: Poppins;
+	font-size: 48px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+}
+
+.fullscrn-paragraph {
+	color: rgba(0, 0, 0, 0.46);
+	font-family: Poppins;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+
+.left-top-aside-paragraph {
+	color: rgba(0, 0, 0, 0.46);
+	font-family: Poppins;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+
+.right-aside-middle-title {
+	color: #000;
+	font-size: 48px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: normal;
+}
+
+.list-item {
+	color: #000;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 300;
+	line-height: normal;
+}
+
+.aside-middle-title {
+	color: #000;
+	font-family: Poppins;
+	font-size: 48px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: normal;
+}
+
+/* Fullscrn-bottomm */
+.person-thinking-icon {
+	position: absolute;
+	left: 15rem;
+}
+
