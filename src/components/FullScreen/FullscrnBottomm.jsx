@@ -3,10 +3,14 @@ import { Button } from "@mui/material";
 import { Send } from "@mui/icons-material";
 import person4 from "./FullScreen-img/fullscreen-person-4.png";
 import person44 from "./FullScreen-img/fullscreen-person-4-4.png";
+import { Link } from "react-router-dom";
 const FullscrnBottomm = () => {
 	return (
 		<>
-			<section className="section bottomm-section" data-aos="fade-left">
+			<section
+				className="section bottomm-section p-5 mb-5"
+				data-aos="fade-left"
+			>
 				<div className="bottomm-container max-w-7xl m-auto">
 					<div className="bottomm-aside-wrapper flex flex-wrap px-4 itemcs-center justify-center">
 						<aside className="bottomm-aside-left flex flex-wrap px-4 md:w-1/2">
@@ -17,14 +21,14 @@ const FullscrnBottomm = () => {
 								Lorem ipsum dolor sit amet consectetur adipisicing elit{" "}
 							</p>
 							<div className="btn-wrapper w-full mb-2 px-4">
-								<Button
-									className="btn btn-send-me"
-									variant="contained"
-									endIcon={<Send />}
-									sx={{ padding: "1em", bgcolor: "#536976" }}
+								<Link
+									target="_blank"
+									className="btn btn-send-me outline bg-[#536976] text-white p-4"
+									to="https://docs.google.com/forms/d/17Hwj7dfvi4XuXbpV-d5uisuFtWEN_08VKU8xyQYR1TU/edit"
 								>
-									Написать мне
-								</Button>
+									Написать нам
+									<Send sx={{ paddingLeft: "5px" }} />
+								</Link>
 							</div>
 						</aside>
 

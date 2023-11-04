@@ -1,12 +1,15 @@
 import "./FullScreen.css";
 import person from "./FullScreen-img/fullscreen-person.jpg";
 
-import { Button } from "@mui/material";
+import { Link } from "react-router-dom";
 import { Send } from "@mui/icons-material";
 const FullScrenn = () => {
 	return (
 		<>
-			<section className="section fullscrn-section mb-5" data-aos="fade-left">
+			<section
+				className="section fullscrn-section  p-5 mb-5"
+				data-aos="fade-left"
+			>
 				<div className="fullScreen-container max-w-7xl m-auto ">
 					{/* Top fullscrn */}
 					<div className="fullscr-top-wrapper flex flex-wrap justify-center items-center">
@@ -25,13 +28,14 @@ const FullScrenn = () => {
 								к нам и станьте частью команды феноменов!
 							</p>
 							<div className="btn btn-send-wrapper">
-								<Button
-									variant="contained"
-									endIcon={<Send />}
-									sx={{ bgcolor: "#536976", padding: "1em" }}
+								<Link
+									target="_blank"
+									className="btn btn-send-me outline bg-[#536976] text-white p-4"
+									to="https://docs.google.com/forms/d/17Hwj7dfvi4XuXbpV-d5uisuFtWEN_08VKU8xyQYR1TU/edit"
 								>
 									Написать нам
-								</Button>
+									<Send sx={{ paddingLeft: "5px" }} />
+								</Link>
 							</div>
 						</aside>
 						<aside className="right-aside flex flex-wrap md:w-1/2 px-4">

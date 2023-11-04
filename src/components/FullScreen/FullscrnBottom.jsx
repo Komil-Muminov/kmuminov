@@ -3,7 +3,7 @@ import person3 from "./FullScreen-img/fullscreen-person-3.png";
 const FullscrnBottom = () => {
 	return (
 		<>
-			<section className="section bottom-section mb-5" data-aos="fade-left">
+			<section className="section bottom-section p-5 mb-5" data-aos="fade-left">
 				<div className="bottom-container max-w-7xl m-auto">
 					<div className="bottom-asides-wrapper flex flex-wrap justify-center items-center px-4">
 						<aside className="bottom left-aside flex flex-wrap md:w-1/2">

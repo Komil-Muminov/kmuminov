@@ -1,17 +1,17 @@
-import Navigation from "./components/Navigation/Navigation";
-// import Footer from "./components/Footer/Footer";
+import { useEffect } from "react";
 import { Routes, Route, Navigate } from "react-router-dom";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
+// -----------------------------------------------------------------
+import Navigation from "./components/Navigation/Navigation";
 import Home from "./components/Home/Home";
 import FullScrenn from "./components/FullScreen/FullScrenn";
 import FullscrnMiddle from "./components/FullScreen/FullscrnMiddle";
 import FullscrnBottom from "./components/FullScreen/FullscrnBottom";
 import FullscrnBottomm from "./components/FullScreen/FullscrnBottomm";
-// import Editicd ng from "./components/Editing/Editing";
+import Footer from "./components/Footer/Footer";
 
-import { useEffect } from "react";
-import AOS from "aos";
-import "aos/dist/aos.css";
 import ErrorPage from "./components/ErrorPage/ErrorPage";
 
 function App() {
@@ -73,7 +73,7 @@ function App() {
 					}
 				/>
 			</Routes>
-			{/* <Footer /> */}
+			<Footer />
 		</>
 	);
 }

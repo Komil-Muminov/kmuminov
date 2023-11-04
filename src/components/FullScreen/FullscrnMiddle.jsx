@@ -2,7 +2,7 @@ import person2 from "./FullScreen-img/fullscreen-person-2.png";
 const FullscrnMiddle = () => {
 	return (
 		<>
-			<section className="section middle-section mb-5" data-aos="fade-left">
+			<section className="section middle-section p-5 mb-5" data-aos="fade-left">
 				<div className="flscrn-middle-container max-w-7xl m-auto">
 					<div className="middle-middle-wrapper flex flex-wrap justify-center items-center px-4">
 						<aside className="left-aside-bottom flex flex-wrap px-4 md:w-1/2">
