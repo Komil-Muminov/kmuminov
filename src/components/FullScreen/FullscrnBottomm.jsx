@@ -17,7 +17,7 @@ const FullscrnBottomm = () => {
 							<h1 className="fullscr-title">
 								Start growing with our community
 							</h1>
-							<p className="fullscrn-paragraph block px-4 ">
+							<p className="fullscrn-paragraph block px-4 py-4 ">
 								Lorem ipsum dolor sit amet consectetur adipisicing elit{" "}
 							</p>
 							<div className="btn-wrapper w-full mb-5 p-8 md:p-4">
