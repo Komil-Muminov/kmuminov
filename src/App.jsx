@@ -27,8 +27,14 @@ function App() {
 			{/* <Editing /> */}
 
 			<Routes>
-				<Route path="*" element={<ErrorPage />} />
-				<Route path="/" element={<Navigate to="/Home" />} />
+				<Route
+					path="*"
+					element={<ErrorPage />}
+				/>
+				<Route
+					path="/"
+					element={<Navigate to="/Home" />}
+				/>
 				<Route
 					path="/Home"
 					element={
@@ -79,4 +85,3 @@ function App() {
 }
 
 export default App;
-

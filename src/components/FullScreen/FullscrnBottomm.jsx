@@ -20,10 +20,10 @@ const FullscrnBottomm = () => {
 							<p className="fullscrn-paragraph block px-4 ">
 								Lorem ipsum dolor sit amet consectetur adipisicing elit{" "}
 							</p>
-							<div className="btn-wrapper w-full mb-2 px-4">
+							<div className="btn-wrapper w-full mb-5 p-4">
 								<Link
 									target="_blank"
-									className="btn btn-send-me outline bg-[#536976] text-white p-4"
+									className="btn btn-send-me outline bg-[#536976] text-white mb-6 p-6 md:p-4"
 									to="https://docs.google.com/forms/d/17Hwj7dfvi4XuXbpV-d5uisuFtWEN_08VKU8xyQYR1TU/edit"
 								>
 									Написать нам
