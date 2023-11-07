@@ -2,14 +2,11 @@ import "./Navigation.css";
 // import { MenuBook } from "@mui/icons-material";
 import Log from "./nav-image/educ-log.svg";
 import { Link } from "react-router-dom";
-import { useState } from "react";
 const Navigation = () => {
-	const [isMobile, setIsMobile] = useState(false);
-
 	return (
 		<>
 			<>
-				<header className={`${!isMobile ? "header header-pc" : "hidden"}`}>
+				<header className="bg-[#ffc95d]">
 					<div className="header-container max-w-7xl m-auto py-10">
 						<div className="header-wrapper flex justify-center items-center gap-3 flex-col md:flex-row md:justify-between md:items-center">
 							<div className="header-log-wrapper flex items-center">

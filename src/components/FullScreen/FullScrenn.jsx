@@ -27,7 +27,7 @@ const FullScrenn = () => {
 								вас на пути к достижению выдающихся результатов. Присоединяйтесь
 								к нам и станьте частью команды феноменов!
 							</p>
-							<div className="btn btn-send-wrapper">
+							<div className="btn btn-send-wrapper mb-7">
 								<Link
 									target="_blank"
 									className="btn btn-send-me outline bg-[#536976] text-white p-4"
