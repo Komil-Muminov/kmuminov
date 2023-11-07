@@ -1,5 +1,3 @@
-import React from "react";
-import { Button } from "@mui/material";
 import { Send } from "@mui/icons-material";
 import person4 from "./FullScreen-img/fullscreen-person-4.png";
 import person44 from "./FullScreen-img/fullscreen-person-4-4.png";
