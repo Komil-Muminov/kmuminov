@@ -3,7 +3,7 @@ const Footer = () => {
 		<>
 			<section className="sections footer-section bg-slate-200  rounded-lg p-5">
 				<div className="footer-container footer-wrapper max-w-[1280px] m-auto ">
-					<div className="footer-content  h-full flex  flex-wrap justify-around   ">
+					<div className="footer-content  h-full flex  flex-wrap justify-between px-4">
 						<aside className="left-items">
 							<ul className="left-items-list">
 								<li className="left-item">

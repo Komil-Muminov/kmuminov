@@ -1,4 +1,3 @@
-import React from "react";
 import person3 from "./FullScreen-img/fullscreen-person-3.png";
 const FullscrnBottom = () => {
 	return (
