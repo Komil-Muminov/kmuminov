@@ -24,7 +24,7 @@ const FullscrnBottomm = () => {
 									className="btn btn-send-me outline bg-[#536976] text-white mb-6 p-6 md:p-4"
 									to="https://docs.google.com/forms/d/17Hwj7dfvi4XuXbpV-d5uisuFtWEN_08VKU8xyQYR1TU/edit"
 								>
-									Написать нам -
+									Написать нам
 									<Send sx={{ paddingLeft: "5px" }} />
 								</Link>
 							</div>
