@@ -23,9 +23,9 @@ function App() {
 	}, []);
 	return (
 		<>
-			<Navigation />
 			{/* <Editing /> */}
 
+			<Navigation />
 			<Routes>
 				<Route path="*" element={<ErrorPage />} />
 				<Route path="/" element={<Navigate to="/Home" />} />

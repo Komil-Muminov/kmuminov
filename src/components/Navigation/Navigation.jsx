@@ -19,45 +19,25 @@ const Navigation = () => {
 								</p>
 							</div>
 							<nav className="header-navigation text-white flex flex-wrap justify-center items-center gap-2 px-4 text-xl">
-								<Link data-aos="fade-right" className="header-item" to="/home">
+								<Link className="header-item" to="/home">
 									Home
 								</Link>
 
-								<Link
-									data-aos="fade-left"
-									className="header-item"
-									to="/FullScrenn"
-								>
+								<Link className="header-item" to="/FullScrenn">
 									Courses
 								</Link>
-								<Link
-									data-aos="fade-left"
-									className="header-item"
-									to="/FullScrenn"
-								>
+								<Link className="header-item" to="/FullScrenn">
 									Courses
 								</Link>
-								<Link
-									data-aos="fade-left"
-									className="header-item"
-									to="/FullscrnMiddle"
-								>
+								<Link className="header-item" to="/FullscrnMiddle">
 									PRO courses
 								</Link>
 
-								<Link
-									data-aos="fade-right"
-									className="header-item"
-									to="/FullscrnBottom"
-								>
+								<Link className="header-item" to="/FullscrnBottom">
 									Start
 								</Link>
 
-								<Link
-									data-aos="fade-left"
-									className="header-item"
-									to="/FullscrnBottomm"
-								>
+								<Link className="header-item" to="/FullscrnBottomm">
 									Growing
 								</Link>
 
