@@ -1,21 +1,3 @@
 .header {
 	background: #ffc95d;
 }
-@media screen and (max-width: 768px) {
-	.header-pc {
-		display: none;
-	}
-
-	.mobile-header {
-		background: #ffc95d;
-	}
-}
-
-@media screen and (min-width: 768px) {
-	.isMobile-log {
-		display: none;
-	}
-	.isMobiel-btn-wrapper {
-		display: none;
-	}
-}

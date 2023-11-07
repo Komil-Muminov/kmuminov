@@ -1,4 +1,3 @@
-import Navigation from "../Navigation/Navigation";
 import FullScrenn from "../FullScreen/FullScrenn";
 import FullscrnMiddle from "../FullScreen/FullscrnMiddle";
 import FillscrnBottom from "../FullScreen/FullscrnBottom";
