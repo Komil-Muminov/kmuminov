@@ -13,6 +13,7 @@ import FullscrnBottomm from "./components/FullScreen/FullscrnBottomm";
 import Footer from "./components/Footer/Footer";
 
 import ErrorPage from "./components/ErrorPage/ErrorPage";
+import LogIn from "./components/Navigation/LogIn/LogIn";
 
 function App() {
 	useEffect(() => {
@@ -69,6 +70,15 @@ function App() {
 					element={
 						<div data-aos="fade-right">
 							<FullscrnBottomm />
+						</div>
+					}
+				/>
+
+				<Route
+					path="/LogIn"
+					element={
+						<div data-aos="fade-right">
+							<LogIn />
 						</div>
 					}
 				/>
