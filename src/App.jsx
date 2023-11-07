@@ -28,10 +28,7 @@ function App() {
 
 			<Routes>
 				<Route path="*" element={<ErrorPage />} />
-				{/* <Route
-					path="/"
-					element={<Navigate to="/na" />}
-				/> */}
+				<Route path="/" element={<Navigate to="/Home" />} />
 				<Route
 					path="/Home"
 					element={
