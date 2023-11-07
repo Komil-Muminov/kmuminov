@@ -53,8 +53,6 @@ const Footer = () => {
 						</aside>
 					</div>
 				</div>
-
-				<p>sadasdsa</p>
 			</section>
 		</>
 	);
