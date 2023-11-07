@@ -1,8 +1,9 @@
 import "./Navigation.css";
 // import { MenuBook } from "@mui/icons-material";
 import Log from "./nav-image/educ-log.svg";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import { useState } from "react";
+import LogIn from "./LogIn/LogIn";
 import { Button } from "@mui/material";
 
 const Navigation = () => {
@@ -42,18 +43,14 @@ const Navigation = () => {
 								Growing
 							</Link>
 
-							<Button
-								variant="outlined"
-								sx={{ padding: "0.07rem" }}
+							<Link
 								onClick={() => setAuthorization(!authorization)}
 								to="/LogIn"
-								className="btn btn-navigation text-white  bg-red-500 transition hover:bg-red-700 duration-200 px-1 py-1 rounded-md  md:p-1"
+								className="btn btn-navigation text-white bg-red-500 transition hover:bg-red-700 duration-200 px-1  rounded-md  md:p-1"
 							>
 								Join
-							</Button>
+							</Link>
 							<Button
-								variant="outlined"
-								sx={{ padding: "0.07rem" }}
 								onClick={() => setAuthorization(!authorization)}
 								className="btn btn-navigation text-white  bg-red-500 transition hover:bg-red-700 duration-200 px-1 py-1 rounded-md  md:p-1"
 							>
