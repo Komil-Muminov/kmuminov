@@ -1,3 +1,4 @@
+import Navigation from "../Navigation/Navigation";
 import FullScrenn from "../FullScreen/FullScrenn";
 import FullscrnMiddle from "../FullScreen/FullscrnMiddle";
 import FillscrnBottom from "../FullScreen/FullscrnBottom";
@@ -7,6 +8,7 @@ const Home = () => {
 		<>
 			<section className="home" data-aos="fade-left">
 				<div className="home-container ">
+					<Navigation />
 					<FullScrenn />
 					<FullscrnMiddle />
 					<FillscrnBottom />
