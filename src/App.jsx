@@ -27,14 +27,11 @@ function App() {
 			{/* <Editing /> */}
 
 			<Routes>
-				<Route
-					path="*"
-					element={<ErrorPage />}
-				/>
-				<Route
+				<Route path="*" element={<ErrorPage />} />
+				{/* <Route
 					path="/"
-					element={<Navigate to="/Home" />}
-				/>
+					element={<Navigate to="/na" />}
+				/> */}
 				<Route
 					path="/Home"
 					element={
