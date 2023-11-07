@@ -8,7 +8,6 @@ const Home = () => {
 		<>
 			<section className="home" data-aos="fade-left">
 				<div className="home-container ">
-					<Navigation />
 					<FullScrenn />
 					<FullscrnMiddle />
 					<FillscrnBottom />
