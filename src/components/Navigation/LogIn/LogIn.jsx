@@ -2,6 +2,7 @@ import { TextField, Button } from "@mui/material";
 import { useForm } from "react-hook-form";
 import "aos/dist/aos.css";
 
+import AcademyLog from "./img/academy-robot-4-png.png";
 const LogIn = () => {
 	const { register, handleSubmit } = useForm({ mode: "onBlur" });
 
@@ -15,7 +16,7 @@ const LogIn = () => {
 					<h2 className="header-title text-center">Авторизация</h2>
 					<div className="header-lot-wrapper flex items-center justify-center px-4  ">
 						<img
-							src="src\components\Navigation\LogIn\img\academy-robot-4-png.png"
+							src={AcademyLog}
 							alt="header-log"
 							className="header-log-img h-60 w-60 md:h-64 md:w-64"
 						/>
