@@ -40,6 +40,10 @@ const Navigation = () => {
 								Growing
 							</Link>
 
+							<Link className="header-item" to="/IsEditing">
+								isEditing
+							</Link>
+
 							<Link
 								onClick={() => setAuthorization(!authorization)}
 								to="/LogIn"

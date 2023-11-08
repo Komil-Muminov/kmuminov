@@ -14,6 +14,7 @@ import Footer from "./components/Footer/Footer";
 
 import ErrorPage from "./components/ErrorPage/ErrorPage";
 import LogIn from "./components/Navigation/LogIn/LogIn";
+import IsEditing from "./components/isEditing/IsEditing";
 
 function App() {
 	useEffect(() => {
@@ -79,6 +80,15 @@ function App() {
 					element={
 						<div data-aos="fade-right">
 							<LogIn />
+						</div>
+					}
+				/>
+
+				<Route
+					path="/IsEditing"
+					element={
+						<div data-aos="fade-right">
+							<IsEditing />
 						</div>
 					}
 				/>
