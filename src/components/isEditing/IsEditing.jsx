@@ -1,14 +1,19 @@
+import { TextField, Button } from "@mui/material";
 const IsEditing = () => {
 	return (
 		<>
-			<section className="sections isEditing-section">
+			<section className="sections isEditing-section bg-gray-50 rounded-xl mx-5 mb-5 p-14 ">
 				<div className="isEditing-container max-w-[1280px] m-auto">
-					<div className="todoList-wrapper bg-gray-50 flex flex-col">
-						<form action="#" className="todoList-form h-96">
-							<input type="text" />
-							<input type="nubmer" />
-							<button>Добавить задачу</button>
-						</form>
+					<div className="form-wrapper flex flex-col items-center justify-center gap-5 p-5">
+						<TextField
+							className=" w-full md:w-1/4"
+							label="Задача "
+							type="search"
+							onChange={(e) => console.log(e.target.value)}
+						/>
+						<Button variant="outlined" className="md:p-5">
+							Добавить задачу
+						</Button>
 					</div>
 				</div>
 			</section>

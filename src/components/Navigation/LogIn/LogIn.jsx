@@ -11,6 +11,7 @@ const LogIn = () => {
 	};
 	return (
 		<>
+		
 			<section className="section log-in bg-gray-50 rounded-xl m-5 p-5">
 				<div className="logIn-container max-w-[1280px] m-auto ">
 					<h2 className="header-title text-center">Авторизация</h2>

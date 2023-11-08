@@ -9,7 +9,7 @@ const Navigation = () => {
 
 	return (
 		<>
-			<header className="bg-[#ffc95d]">
+			<header className="bg-[#ffc95d] mb-5">
 				<div className="header-container max-w-7xl m-auto py-10">
 					<div className="header-wrapper flex  flex-col md:flex-row md:justify-between md:items-center">
 						<div className="header-log-wrapper flex items-center gap-3 justify-center">
