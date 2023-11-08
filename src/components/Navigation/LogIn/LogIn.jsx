@@ -15,11 +15,13 @@ const LogIn = () => {
 				<div className="logIn-container max-w-[1280px] m-auto ">
 					<h2 className="header-title text-center">Авторизация</h2>
 					<div className="header-lot-wrapper flex items-center justify-center px-4  ">
-						<img
-							src={AcademyLog}
-							alt="header-log"
-							className="header-log-img h-60 w-60 md:h-64 md:w-64"
-						/>
+						<a href="#" className=" cursor-pointer">
+							<img
+								src={AcademyLog}
+								alt="header-log"
+								className="header-log-img h-60 w-60 md:h-64 md:w-64"
+							/>
+						</a>
 					</div>
 					<div className="header-form-wrapper flex flex-col p-5">
 						<form

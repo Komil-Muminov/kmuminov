@@ -1,7 +1,6 @@
 import "./Navigation.css";
-// import { MenuBook } from "@mui/icons-material";
-import Log from "./nav-image/educ-log.svg";
-import { Link, NavLink } from "react-router-dom";
+import navlog from "./nav-image/academy-tea-log-noBg.png";
+import { Link } from "react-router-dom";
 import { useState } from "react";
 import { Button } from "@mui/material";
 
@@ -12,12 +11,11 @@ const Navigation = () => {
 		<>
 			<header className="bg-[#ffc95d]">
 				<div className="header-container max-w-7xl m-auto py-10">
-					<div className="header-wrapper flex justify-center items-center gap-3 flex-col md:flex-row md:justify-between md:items-center">
-						<div className="header-log-wrapper flex items-center">
-							<img src={Log} alt="log" />
-							<p className="sections-desc header-nav-desc text-2xl ">
-								Academy-tea
-							</p>
+					<div className="header-wrapper flex  flex-col md:flex-row md:justify-between md:items-center">
+						<div className="header-log-wrapper flex items-center gap-3 justify-center">
+							<Link to="/">
+								<img src={navlog} alt="log" className=" h-32" />
+							</Link>
 						</div>
 						<nav className="header-navigation text-white flex flex-wrap justify-center items-center gap-2 px-4 text-xl">
 							<Link className="header-item" to="/home">
