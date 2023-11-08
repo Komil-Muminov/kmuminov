@@ -3,7 +3,6 @@ import "./Navigation.css";
 import Log from "./nav-image/educ-log.svg";
 import { Link, NavLink } from "react-router-dom";
 import { useState } from "react";
-import LogIn from "./LogIn/LogIn";
 import { Button } from "@mui/material";
 
 const Navigation = () => {

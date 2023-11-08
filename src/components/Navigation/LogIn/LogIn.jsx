@@ -10,17 +10,17 @@ const LogIn = () => {
 	};
 	return (
 		<>
-			<section className="section log-in">
-				<div className="logIn-container max-w-[1280px] m-auto p-5 ">
+			<section className="section log-in bg-gray-50 rounded-xl m-5 p-5">
+				<div className="logIn-container max-w-[1280px] m-auto ">
 					<h2 className="header-title text-center">Авторизация</h2>
-					<div className="header-lot-wrapper flex items-center justify-center">
+					<div className="header-lot-wrapper flex items-center justify-center px-4  ">
 						<img
-							src="src\components\Navigation\LogIn\img\academy-robot-png.png"
+							src="src\components\Navigation\LogIn\img\academy-robot-4-png.png"
 							alt="header-log"
-							className="header-log-img"
+							className="header-log-img h-60 w-60 md:h-64 md:w-64"
 						/>
 					</div>
-					<div className="header-form-wrapper flex flex-col">
+					<div className="header-form-wrapper flex flex-col p-5">
 						<form
 							onSubmit={handleSubmit(onSubmit)}
 							className="log-in-wrapper  flex flex-col items-center justify-center gap-5"
