@@ -8,9 +8,10 @@ const IsEditing = () => {
 		handleSubmit,
 	} = useForm({ mode: "onBlur" });
 
-	const [userInput, setUserInput] = useState([{}]);
+	const [userInput, setUserInput] = useState([]);
 	const handleOnSubmit = (data) => {
 		console.log(data);
+		setUserInput(data);
 	};
 	return (
 		<>
@@ -45,7 +46,7 @@ const IsEditing = () => {
 							</Button>
 						</form>
 					</div>
-					<div className="items-wrapper">{}</div>
+					<div className="items-wrapper"></div>
 				</div>
 			</section>
 		</>
