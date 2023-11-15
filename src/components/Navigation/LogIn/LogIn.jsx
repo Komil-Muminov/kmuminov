@@ -53,7 +53,7 @@ const IsEditing = () => {
 								})}
 							/>
 							<span className="form error login">
-								<p>{errors?.login?.message || "Ошибка"}</p>
+								<p>{errors?.login?.message || "Заполните поле !"}</p>
 							</span>
 
 							<TextField
@@ -69,7 +69,7 @@ const IsEditing = () => {
 								})}
 							/>
 							<span className="form-error-message">
-								<p>{errors?.password?.message || "Ошибка"}</p>
+								<p>{errors?.password?.message || "Заполните поле !"}</p>
 							</span>
 							<Button
 								sx={{ px: "4em" }}
