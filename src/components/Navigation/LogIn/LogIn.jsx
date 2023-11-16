@@ -12,14 +12,23 @@ const IsEditing = () => {
 	const [userInput, setUserInput] = useState([]);
 	const handleOnSubmit = (data) => {
 		console.log(data);
-		setUserInput(data);
 
 		if (data.login === "komil" && data.password === "komil") {
 			alert("Yo Admin ! ");
+			setUserInput(
+				(prev) => [
+					...prev,
+					{ id: prev.length + 1, login: data.login, password: data.password },
+				],
+				() => {
+					console.log("userInput", userInput);
+				},
+			);
 		} else {
 			alert("NO");
 		}
 	};
+
 	return (
 		<>
 			<section className="sections isEditing-section bg-gray-50 rounded-xl mx-5 mb-5 p-14 ">
@@ -42,10 +51,10 @@ const IsEditing = () => {
 						>
 							<TextField
 								className=" w-full md:w-1/4"
-								label="Login "
+								label="login "
 								type="search"
 								{...register("login", {
-									required: "Заполните поле ",
+									required: "Заполните поле ! ",
 									minLength: {
 										value: 3,
 										message: "Необходимо внести минимум 3 символа",
@@ -53,7 +62,9 @@ const IsEditing = () => {
 								})}
 							/>
 							<span className="form error login">
-								<p>{errors?.login?.message || "Заполните поле !"}</p>
+								<p className="text-3xl text-red-500">
+									{errors?.login?.message || ""}
+								</p>
 							</span>
 
 							<TextField
@@ -61,7 +72,7 @@ const IsEditing = () => {
 								label="password "
 								type="search"
 								{...register("password", {
-									required: "Заполните поле ",
+									required: "Заполните поле !",
 									minLength: {
 										value: 3,
 										message: "Необходимо внести минимум 3 символа",
@@ -69,7 +80,9 @@ const IsEditing = () => {
 								})}
 							/>
 							<span className="form-error-message">
-								<p>{errors?.password?.message || "Заполните поле !"}</p>
+								<p className="text-3xl text-red-500">
+									{errors?.password?.message || ""}
+								</p>
 							</span>
 							<Button
 								sx={{ px: "4em" }}
@@ -81,8 +94,18 @@ const IsEditing = () => {
 							</Button>
 						</form>
 					</div>
-					<div className="items-wrapper"></div>
 				</div>
+				{userInput?.length > 0 ? (
+					<div className="userInput-wrapper">
+						{userInput?.map((item) =>
+							item.login === "komil" && item.password === "komil" ? (
+								alert("YSSS")
+							) : (
+								<>{setUserInput([])}</>
+							),
+						)}
+					</div>
+				) : null}
 			</section>
 		</>
 	);

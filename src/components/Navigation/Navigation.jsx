@@ -51,10 +51,7 @@ const Navigation = () => {
 							>
 								Join
 							</Link>
-							<Button
-								onClick={() => setAuthorization(!authorization)}
-								className="btn btn-navigation text-white  bg-red-500 transition hover:bg-red-700 duration-200 px-1 py-1 rounded-md  md:p-1"
-							>
+							<Button onClick={() => setAuthorization(!authorization)}>
 								Registration
 							</Button>
 						</nav>
