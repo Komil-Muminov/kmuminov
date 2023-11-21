@@ -6,7 +6,7 @@ const PersonAccaunt = () => {
 		<>
 			<div className="container max-w-7xl m-auto">
 				<div className="person-wrapper">
-					<h2 className="text-red-500 text-center text-5xl">Личный кабинет</h2>
+					<h2 className="text-center text-6xl">Личный кабинет</h2>
 				</div>
 				<p className="text-red-500 text-center text-3xl">
 					Данный компонент находиться в разработке !{" "}
