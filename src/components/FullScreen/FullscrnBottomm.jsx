@@ -18,15 +18,16 @@ const FullscrnBottomm = () => {
 							<p className="fullscrn-paragraph block px-4 py-4 ">
 								Lorem ipsum dolor sit amet consectetur adipisicing elit{" "}
 							</p>
-							<div className="btn-wrapper w-full mb-10 px-4 md:px-4">
+							<div className="btn btn-send-wrapper pt-5 pb-5 px-5 mb-7">
+								{" "}
 								<Link
 									target="_blank"
-									className="btn btn-send-me outline bg-[#536976] text-white mb-6 p-6 md:p-4"
+									className="btn btn-send-me outline bg-[#536976] text-white p-4"
 									to="https://docs.google.com/forms/d/17Hwj7dfvi4XuXbpV-d5uisuFtWEN_08VKU8xyQYR1TU/edit"
 								>
-									Написать нам
-									<Send sx={{ paddingLeft: "5px" }} />
-								</Link>
+									{" "}
+									Написать нам <Send sx={{ padding: "5px" }} />{" "}
+								</Link>{" "}
 							</div>
 						</aside>
 
