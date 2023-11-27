@@ -25,16 +25,16 @@ const FullScrenn = () => {
 								и способность видеть возможности там, где другие их не замечают.
 								В Phenomen Team, мы верим в ваш потенциал и готовы поддержать
 								вас на пути к достижению выдающихся результатов. Присоединяйтесь
-								к нам и станьте частью команды феноменов!
+								к нам и станьте частью команды феноменов !!
 							</p>
-							<div className="btn btn-send-wrapper mb-7">
+							<div className="btn btn-send-wrapper pt-5 pb-5 px-5 mb-7">
 								<Link
 									target="_blank"
 									className="btn btn-send-me outline bg-[#536976] text-white p-4"
 									to="https://docs.google.com/forms/d/17Hwj7dfvi4XuXbpV-d5uisuFtWEN_08VKU8xyQYR1TU/edit"
 								>
 									Написать нам
-									<Send sx={{ paddingLeft: "5px" }} />
+									<Send sx={{ padding: "5px" }} />
 								</Link>
 							</div>
 						</aside>

@@ -5,7 +5,7 @@ import { useState } from "react";
 import { Button } from "@mui/material";
 
 const Navigation = () => {
-	const [authorization, setAuthorization] = useState(false);
+	// const [authorization, setAuthorization] = useState(false);
 
 	return (
 		<>
@@ -47,13 +47,13 @@ const Navigation = () => {
 							<Link
 								onClick={() => setAuthorization(!authorization)}
 								to="/LogIn"
-								className="btn btn-navigation text-white bg-red-500 transition hover:bg-red-700 duration-200 px-1  rounded-md  md:p-1"
+								className="btn btn-navigation text-white px-1 md:p-1"
 							>
 								Join
 							</Link>
-							<Button onClick={() => setAuthorization(!authorization)}>
+							{/* <Button onClick={() => setAuthorization(!authorization)}>
 								Registration
-							</Button>
+							</Button> */}
 						</nav>
 					</div>
 				</div>
