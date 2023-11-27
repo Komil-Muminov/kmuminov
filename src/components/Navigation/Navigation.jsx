@@ -5,7 +5,7 @@ import { useState } from "react";
 import { Button } from "@mui/material";
 
 const Navigation = () => {
-	// const [authorization, setAuthorization] = useState(false);
+	const [authorization, setAuthorization] = useState(false);
 
 	return (
 		<>
