@@ -51,9 +51,9 @@ const Navigation = () => {
 							>
 								Join
 							</Link>
-							{/* <Button onClick={() => setAuthorization(!authorization)}>
+							<Button onClick={() => setAuthorization(!authorization)}>
 								Registration
-							</Button> */}
+							</Button>
 						</nav>
 					</div>
 				</div>
