@@ -1,0 +1,65 @@
+.nav__section {
+	padding-bottom: 3.4em;
+}
+
+.nav {
+	background: #ffd7d7;
+	padding: 4em 0;
+}
+
+/* NAV_LOG */
+.log__text {
+	color: var(--log-text);
+	font-size: 1.3em;
+	transition: color 0.3s ease-in-out;
+}
+
+.log__text:hover:not(:focus-visible) {
+	color: #3d938f;
+}
+
+.log__text:focus {
+	color: #125a5a;
+}
+
+.log__text:active:not(:focus-visible) {
+	color: #40d8d8;
+}
+
+.nav__item {
+	color: var(--log-text);
+	position: relative;
+	transition: transform 0.3s ease-in-out;
+}
+
+.nav__item:hover {
+	color: #41baba;
+}
+
+.nav__item::after {
+	content: "";
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 2px;
+	background-color: var(--title-text);
+	transform: scale(0);
+	transition: transform 0.3s ease-in-out;
+}
+
+.nav__item:hover::after {
+	transform: scale(1);
+}
+
+.btn {
+	padding: 0.8em 1.4em;
+	background: var(--title-text);
+	border-radius: 0.9em;
+	color: var(--bg-color);
+	transition: color 0.2s ease-in-out;
+}
+
+.btn:hover:not(:focus-visible) {
+	color: var(--text-gray);
+}

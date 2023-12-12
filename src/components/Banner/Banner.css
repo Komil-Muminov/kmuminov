@@ -1,0 +1,14 @@
+.banner__content {
+}
+
+.banner_title {
+	max-width: 120px;
+	width: 100%;
+}
+
+.rounded_avatar {
+	padding: 5rem;
+	background: red;
+	outline: 1px solid green;
+	border-radius: 100%;
+}
