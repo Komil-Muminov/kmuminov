@@ -27,7 +27,7 @@ const Banner = () => {
 								Lorem, ipsum dolor.
 							</p>
 							<p className="sections__desc">I am a novice web developer.</p>
-							<p className="banner_desc">I am KOMIL MUMINOV.</p>
+							<p className="banner_desc">I am KOMIL MUMINOV..</p>
 						</div>
 					</div>
 				</div>
