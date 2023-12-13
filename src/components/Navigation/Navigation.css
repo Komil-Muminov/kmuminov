@@ -3,14 +3,14 @@
 }
 
 .nav {
-	background: #ffd7d7;
+	/* background: #ffd7d7; */
 	padding: 4em 0;
 }
 
 /* NAV_LOG */
 .log__text {
 	color: var(--log-text);
-	font-size: 1.3em;
+	font-size: 1.5rem;
 	transition: color 0.3s ease-in-out;
 }
 
@@ -30,6 +30,7 @@
 	color: var(--log-text);
 	position: relative;
 	transition: transform 0.3s ease-in-out;
+	font-size: 1.4rem;
 }
 
 .nav__item:hover {
@@ -57,9 +58,20 @@
 	background: var(--title-text);
 	border-radius: 0.9em;
 	color: var(--bg-color);
-	transition: color 0.2s ease-in-out;
+	transition: color 0.2s ease-in-out, background-color 0.3s ease-in-out;
 }
 
 .btn:hover:not(:focus-visible) {
+	background-color: #1180b3;
 	color: var(--text-gray);
+}
+
+.btn:hover:focus,
+:focus-visible {
+	background-color: #530000;
+	color: var(--text-gray);
+}
+
+.btn:hover:active:not(:focus-visible) {
+	background-color: #bb0101;
 }

@@ -1,12 +1,13 @@
 import { Link } from "react-router-dom";
 import "./Navigation.css";
+// import cv from "./cv.docx";
 const Navigation = () => {
 	return (
 		<>
 			<header className="nav__section">
 				<nav className="nav">
 					<div className="container flex items-center flex-wrap justify-around">
-						<a href="#" className="log__text">
+						<a href="/Home" className="log__text">
 							K.MUMINOV
 						</a>
 						<Link className="nav__item" to="/Home">
@@ -15,14 +16,14 @@ const Navigation = () => {
 						<Link className="nav__item" to="/Banner">
 							BANNER
 						</Link>
-						<Link className="nav__item" to="/Projects">
+						<Link className="nav__item" to="/Content">
 							Projects
 						</Link>
 						<Link className="nav__item" to="/Contacts">
 							Contact
 						</Link>
-						<a href="#" className="btn download_cv">
-							Скачать
+						<a download="" className="btn download_cv">
+							Скачать Документ
 						</a>
 					</div>
 				</nav>

@@ -24,6 +24,11 @@
 	font-weight: 300;
 }
 
+@font-face {
+	font-family: "Corvetta";
+	src: url("./components/Fonts/Corvetta.ttf");
+}
+
 * {
 	font-family: "Popin__regular", sans-serif;
 	box-sizing: border-box;

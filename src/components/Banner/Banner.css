@@ -1,9 +1,26 @@
-.banner__content {
+.banner_title {
+	max-width: 320px;
+	width: 100%;
 }
 
-.banner_title {
-	max-width: 120px;
+.banner_desc {
+	color: var(--5, #0d2f3f);
+	font-family: "Corvetta";
+	font-size: 1.625rem;
+	font-weight: 400;
+	line-height: 36px; /* 138.462% */
+}
+
+.banner_center img {
+	max-width: 500px;
 	width: 100%;
+	min-height: 600px;
+	object-fit: cover;
+	overflow: hidden;
+	border-radius: 2rem;
+	box-shadow: 0 24px 28px rgba(0, 0, 0, 0.384);
+	transition: transform 0.3s ease-in-out;
+	/* transform: scale(0.9); */
 }
 
 .rounded_avatar {
@@ -11,4 +28,19 @@
 	background: red;
 	outline: 1px solid green;
 	border-radius: 100%;
+}
+
+.social__icons svg:hover:not(:focus-visible) {
+	transition: background-color 0.3s ease-in-out;
+	color: red;
+}
+
+.social__icons svg:focus {
+	transition: background-color 0.3s ease-in-out;
+	color: rgb(21, 255, 0);
+}
+
+.social__icons svg:active {
+	transition: background-color 0.3s ease-in-out;
+	color: rgb(21, 255, 0);
 }
