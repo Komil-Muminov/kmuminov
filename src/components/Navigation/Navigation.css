@@ -53,6 +53,10 @@
 	transform: scale(1);
 }
 
+.nav__item:focus-visible::after {
+	transform: scale(1);
+}
+
 .btn {
 	padding: 0.8em 1.4em;
 	background: var(--title-text);
@@ -63,13 +67,16 @@
 
 .btn:hover:not(:focus-visible) {
 	background-color: #1180b3;
-	color: var(--text-gray);
+	color: var(--text-white);
 }
 
-.btn:hover:focus,
+.nav__item :hover:focus,
 :focus-visible {
-	background-color: #530000;
-	color: var(--text-gray);
+	/* background-color: #530000; */
+	background-color: rgb(255, 230, 230);
+	color: var(--text-white);
+	padding: 0.2rem;
+	border-radius: 0.3rem;
 }
 
 .btn:hover:active:not(:focus-visible) {

@@ -8,7 +8,8 @@ import Navigation from "./components/Navigation/Navigation";
 import Home from "./components/Home/Home";
 import ErrorPage from "./components/ErrorPage/ErrorPage";
 import Banner from "./components/Banner/Banner";
-// import Content from "./components/Content/Content";
+import Editing from "./components/Editing/Editing";
+import Content from "./components/Content/Content";
 // import Footer from "./components/Footer/Footer";
 
 function App() {
@@ -46,6 +47,24 @@ function App() {
 					element={
 						<div data-aos="fade-right">
 							<Banner />
+						</div>
+					}
+				/>
+
+				<Route
+					path="/Content"
+					element={
+						<div data-aos="fade-right">
+							<Content />
+						</div>
+					}
+				/>
+
+				<Route
+					path="/Editing"
+					element={
+						<div data-aos="fade-right">
+							<Editing />
 						</div>
 					}
 				/>

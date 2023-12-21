@@ -22,6 +22,9 @@ const Navigation = () => {
 						<Link className="nav__item" to="/Contacts">
 							Contact
 						</Link>
+						<Link className="nav__item" to="/Editing">
+							ISEDITING
+						</Link>
 						<a download="" className="btn download_cv">
 							Скачать Документ
 						</a>

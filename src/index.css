@@ -3,36 +3,55 @@
 @tailwind utilities;
 
 @font-face {
-	font-family: "Popin_regular";
-	src: url("./components/Fonts/Poppins-Regular.ttf");
+	font-family: "Montserrat";
+	src: local("Montserrat-SemiBold"),
+		url("./components/Fonts/Montserrat-SemiBold.woff2"),
+		url("./components/Fonts/Montserrat-SemiBold.woff");
+	font-weight: 600;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: "Montserrat";
+	src: local("Montserrat-Bold"),
+		url("./components/Fonts/Montserrat-Bold.woff2") format("woff2"),
+		url("./components/Fonts/Montserrat-Bold.woff") format("woff");
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Monstserrat";
+	src: local("Monstserrat-ExtraBold"),
+		url("./components/Fonts/Montserrat-ExtraBold.woff2"),
+		url("./components/Fonts/Montserrat-ExtraBold.woff");
+	font-weight: 800;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Monstserrat";
+	src: local("Montserrat-Regular"),
+		url("./components/Fonts/Montserrat-Regular.woff2"),
+		url("./components/Fonts/Montserrat-Regular.woff");
 	font-weight: 400;
 	font-style: normal;
 	font-display: swap;
 }
 
-@font-face {
-	font-family: "Popin__title";
-	src: url("./components/Fonts/Poppins-Medium.ttf");
-	font-weight: 500;
+* {
+	font-family: "Monstserrat", sans-serif;
+	box-sizing: border-box;
+	font-weight: 400;
 	font-style: normal;
 	font-display: swap;
-}
-
-@font-face {
-	font-family: "Popin__desc";
-	src: url("./components/Fonts/Poppins-Light.ttf");
-	font-weight: 300;
-}
-
-@font-face {
-	font-family: "Corvetta";
-	src: url("./components/Fonts/Corvetta.ttf");
-}
-
-* {
-	font-family: "Popin__regular", sans-serif;
-	box-sizing: border-box;
 	outline: none;
+}
+
+*:focus-visible {
+	outline: 0;
 }
 
 body {
@@ -65,30 +84,31 @@ button {
 
 /* CUSTOM__CLASS */
 
-.sections {
-	padding: 3.4rem 0;
-}
-
 .container {
 	max-width: 1920px;
 	margin: 0 auto;
 	padding: 0 3.4rem;
 }
 
+.sections {
+	padding: 3.4rem 0;
+}
+
 .sections__title {
+	font-family: "Monstserrat", sans-serif;
 	margin-bottom: 2.2em;
-	font-family: "Popin__title", sans-serif;
 	color: var(--title-text);
 	font-size: 3em;
-	font-weight: 400;
+	font-weight: 600;
 	line-height: 1.3em;
 }
 
 .sections__desc {
-	font-family: "Popin__desc", sans-serif;
+	font-family: "Monstserrat", sans-serif;
 	color: var(--desc-text);
 	margin-bottom: 1.25em;
 	font-size: 18px;
+	font-weight: 400;
 	line-height: 1.75em;
 }
 
