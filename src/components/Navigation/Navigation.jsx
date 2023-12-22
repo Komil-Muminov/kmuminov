@@ -17,7 +17,7 @@ const Navigation = () => {
 							BANNER
 						</Link>
 						<Link className="nav__item" to="/Content">
-							Projects
+							PAST LIVES
 						</Link>
 						<Link className="nav__item" to="/Contacts">
 							Contact

@@ -3,7 +3,7 @@ import "./Content.css";
 const Content = () => {
 	return (
 		<>
-			<section className="sections">
+			<section data-aos="fade-right" className="sections">
 				<div className="container">
 					<h1 className="sections__title content_title text-center mb-2">
 						PAST LIVES
