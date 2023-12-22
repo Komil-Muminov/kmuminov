@@ -6,7 +6,7 @@ const Navigation = () => {
 		<>
 			<header className="nav__section">
 				<nav className="nav">
-					<div className="container flex items-center flex-wrap justify-around">
+					<div className="container flex items-center flex-col md:flex-row md:justify-between">
 						<a href="/Home" className="log__text">
 							K.MUMINOV
 						</a>

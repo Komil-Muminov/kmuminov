@@ -1,8 +1,3 @@
-.banner_title {
-	max-width: 320px;
-	width: 100%;
-}
-
 .banner_desc {
 	color: var(--5, #0d2f3f);
 	font-family: "Monstserrat";
@@ -14,20 +9,14 @@
 .banner_center img {
 	max-width: 500px;
 	width: 100%;
-	min-height: 600px;
-	object-fit: cover;
+	min-height: 271px;
 	overflow: hidden;
+	object-fit: cover;
+	width: 100%;
 	border-radius: 2rem;
 	box-shadow: 0 24px 28px rgba(0, 0, 0, 0.384);
 	transition: transform 0.3s ease-in-out;
 	/* transform: scale(0.9); */
-}
-
-.rounded_avatar {
-	padding: 5rem;
-	background: red;
-	outline: 1px solid green;
-	border-radius: 100%;
 }
 
 .social__icon:hover:not(:focus-visible) path {

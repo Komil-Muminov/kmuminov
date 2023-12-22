@@ -96,7 +96,6 @@ button {
 
 .sections__title {
 	font-family: "Monstserrat", sans-serif;
-	margin-bottom: 2.2em;
 	color: var(--title-text);
 	font-size: 3em;
 	font-weight: 600;
@@ -107,7 +106,7 @@ button {
 	font-family: "Monstserrat", sans-serif;
 	color: var(--desc-text);
 	margin-bottom: 1.25em;
-	font-size: 18px;
+	font-size: 22px;
 	font-weight: 400;
 	line-height: 1.75em;
 }
