@@ -25,7 +25,10 @@ const Navigation = () => {
 						<Link className="nav__item" to="/Editing">
 							ISEDITING
 						</Link>
-						<a download="" className="btn download_cv">
+						<a
+							download=""
+							className="btn download_cv p-[0.4rem] text-[12px] rounded-[0.6rem]"
+						>
 							Скачать Документ
 						</a>
 					</div>

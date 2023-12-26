@@ -7,12 +7,11 @@ const Banner = () => {
 		<>
 			<section data-aos="fade-left" className="sections banner__section">
 				<div className="container">
-					<div className="banner__content flex flex-col md:flex-row md:justify-between ">
-						<div className="banner_left">
-							<h1 className="sections__title banner_title">
+					<div className="banner__content flex flex-col md:flex-row justify-between ">
+						<div className="banner_left flex flex-col justify-between">
+							<h1 className="sections__title banner_title max-w-xs">
 								Hy! I Am KOMIL MUMINOV.{" "}
 							</h1>
-							<p className="banner_desc">I am a novice web developer.</p>
 							<article className="social__icons mb-4 md:mb-0">
 								<Link to="https://www.instagram.com/komilff" target="_blank">
 									<Instagram
@@ -37,11 +36,14 @@ const Banner = () => {
 									/>
 								</Link>
 							</article>
+							<p className="banner_desc mb-6 md:mb-0">
+								I am a novice web developer.
+							</p>
 						</div>
 						<div className="banner_center flex flex-wrap-reverse ">
-							<img src={km} alt="banner" className="person__img" />
+							<img src={km} alt="banner" className="person__img mb-8" />
 						</div>
-						<div className="banner_right flex flex-col">
+						<div className="banner_right flex flex-col justify-between">
 							<span className="flex flex-col items-center gap-4">
 								<Link
 									to="https://yandex.ru/maps/10318/dushanbe/?ll=68.732958%2C38.587896&mode=routes&rtext=~38.587973%2C68.732902&rtt=auto&ruri=~&z=18.7"
