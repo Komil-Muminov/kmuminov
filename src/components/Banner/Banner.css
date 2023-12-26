@@ -30,6 +30,11 @@
 	width: fit-content;
 }
 
+.banner_infinity:hover:not(:focus-visible) path {
+	transition: color 0.3s ease-in-out;
+	color: rgb(239, 102, 102);
+}
+
 /* transition: fill 0.3s ease-in-out; */
 /* .social-icons svg:hover:not(:focus-visible) path {
   fill: var(--links-color);

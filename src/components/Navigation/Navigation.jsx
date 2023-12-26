@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import { MenuOpenRounded } from "@mui/icons-material";
 import "./Navigation.css";
 // import cv from "./cv.docx";
 const Navigation = () => {
@@ -6,10 +7,17 @@ const Navigation = () => {
 		<>
 			<header className="nav__section">
 				<nav className="nav">
-					<div className="container flex items-center flex-col md:flex-row md:justify-between">
-						<a href="/Home" className="log__text">
+					<Link href="/Home" className="log__text md:hidden">
+						K.MUMINOV
+					</Link>
+					<div className="container flex flex-col items-end  md:flex-row md:justify-between">
+						<Link href="/Home" className="log__text hidden md:block">
 							K.MUMINOV
-						</a>
+						</Link>
+						<span className="nav_burger block md:hidden">
+							<MenuOpenRounded className="" />
+						</span>
+
 						<Link className="nav__item" to="/Home">
 							(Home)
 						</Link>
@@ -25,12 +33,9 @@ const Navigation = () => {
 						<Link className="nav__item" to="/Editing">
 							ISEDITING
 						</Link>
-						<a
-							download=""
-							className="btn download_cv p-[0.4rem] text-[12px] rounded-[0.6rem]"
-						>
+						<Link download="" className="btn download_cv">
 							Скачать Документ
-						</a>
+						</Link>
 					</div>
 				</nav>
 			</header>

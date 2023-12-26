@@ -1,4 +1,10 @@
-import { Instagram, Facebook, PinDrop, GitHub } from "@mui/icons-material";
+import {
+	Instagram,
+	Facebook,
+	PinDrop,
+	GitHub,
+	AllInclusiveRounded,
+} from "@mui/icons-material";
 import { Link } from "react-router-dom";
 import "./Banner.css";
 import km from "../Banner/km.jpg";
@@ -9,7 +15,7 @@ const Banner = () => {
 				<div className="container">
 					<div className="banner__content flex flex-col md:flex-row justify-between ">
 						<div className="banner_left flex flex-col justify-between">
-							<h1 className="sections__title banner_title max-w-xs">
+							<h1 className="sections__title banner_title max-w-xs text-4xl md:text-6xl">
 								Hy! I Am KOMIL MUMINOV.{" "}
 							</h1>
 							<article className="social__icons mb-4 md:mb-0">
@@ -41,23 +47,36 @@ const Banner = () => {
 							</p>
 						</div>
 						<div className="banner_center flex flex-wrap-reverse ">
-							<img src={km} alt="banner" className="person__img mb-8" />
+							<img
+								src={km}
+								alt="banner"
+								className="person__img mb-12 md:mb-0"
+							/>
 						</div>
-						<div className="banner_right flex flex-col justify-between">
+						<div className="banner_rigt flex flex-col justify-between">
 							<span className="flex flex-col items-center gap-4">
 								<Link
 									to="https://yandex.ru/maps/10318/dushanbe/?ll=68.732958%2C38.587896&mode=routes&rtext=~38.587973%2C68.732902&rtt=auto&ruri=~&z=18.7"
 									target="_blank"
 								>
 									<PinDrop
-										sx={{ height: "40px", width: "40px;" }}
+										sx={{ height: "70px", width: "70px;" }}
 										className="location_icon"
 									/>
 								</Link>
-								<p className="sections__title banner_title">TAJIKISTAN</p>
+								<p className="sections__title banner_title self-center text-4xl md:text-6xl">
+									TAJIKISTAN
+								</p>
+								<p className="sections__title banner_title self-center text-4xl md:text-6xl">
+									Dushanbe
+								</p>
 							</span>
-							<p className="sections__title">Dushanbe</p>
-							<p className="banner_desc">I am كميل.</p>
+							<span className="flex justify-center items-center gap-2">
+								<AllInclusiveRounded className="banner_infinity" sx={{ height: "100px", width: "60px" }} />
+								<small>0104</small>
+							</span>
+
+							<p className="banner_desc text-center">I am كميل.</p>
 						</div>
 					</div>
 				</div>

@@ -91,13 +91,12 @@ button {
 }
 
 .sections {
-	padding: 3.4rem 0;
+	padding: 3rem 0;
 }
 
 .sections__title {
 	font-family: "Monstserrat", sans-serif;
 	color: var(--title-text);
-	font-size: 3em;
 	font-weight: 600;
 	line-height: 1.3em;
 }
