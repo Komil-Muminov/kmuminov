@@ -13,8 +13,8 @@ const Banner = () => {
 		<>
 			<section data-aos="fade-left" className="sections banner__section">
 				<div className="container">
-					<div className="banner__content flex flex-col md:flex-row justify-between ">
-						<div className="banner_left flex flex-col justify-between">
+					<div className="banner__content flex flex-col items-center md:flex-row justify-between ">
+						<div className="banner_left flex flex-col justify-between gap-4">
 							<h1 className="sections__title banner_title max-w-xs text-4xl md:text-6xl">
 								Hy! I Am KOMIL MUMINOV.{" "}
 							</h1>
@@ -72,7 +72,10 @@ const Banner = () => {
 								</p>
 							</span>
 							<span className="flex justify-center items-center gap-2">
-								<AllInclusiveRounded className="banner_infinity" sx={{ height: "100px", width: "60px" }} />
+								<AllInclusiveRounded
+									className="banner_infinity"
+									sx={{ height: "100px", width: "60px" }}
+								/>
 								<small>0104</small>
 							</span>
 

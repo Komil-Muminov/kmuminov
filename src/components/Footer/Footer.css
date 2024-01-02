@@ -1,12 +1,9 @@
-/* .footer__section {
-	padding-top: 3.4rem;
+.footer {
+	color: var(--text-white);
+	background-color: rgb(0, 0, 0);
+	border-radius: 5px;
 }
 
 .footer__content {
-	background-color: antiquewhite;
-	padding: 5.2rem;
+	padding: 60px 0;
 }
-
-.footer__offset {
-	gap: 1rem;
-} */
