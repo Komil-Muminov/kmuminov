@@ -7,28 +7,16 @@ const Footer = () => {
 		<>
 			<footer className="footer">
 				<div className="container">
-					<div className="footer__content flex justify-between">
+					<div className="footer__content flex  gap-3 justify-between flex-wrap md:flex-row md:justify-between">
 						<div className="footer_left flex flex-col gap-4  footer__offset ">
-							<Link target="_blank" href="#" className="left-text">
-								FOOTER
-							</Link>
-							<Link target="_blank" href="#" className="left-text">
-								FOOTER
-							</Link>
-							<Link target="_blank" href="#" className="left-text">
-								FOOTER
-							</Link>
+							<h2>Таджикистан.</h2>
+							<p>Душанбе.</p>
+							Испечак 2, м8.
 						</div>
 						<div className="footer_center flex flex-col gap-4  footer__offset">
-							<Link target="_blank" href="#" className="center-link">
-								FOOTER
-							</Link>
-							<Link target="_blank" href="#" className="center-link">
-								FOOTER
-							</Link>
-							<Link target="_blank" href="#" className="center-link">
-								FOOTER
-							</Link>
+							<h2>Tajikistan</h2>
+							<p>Dushanbe</p>
+							<p>Ispechak 2</p>
 						</div>
 
 						<div className="footer_right flex flex-col gap-4 footer__offset">
