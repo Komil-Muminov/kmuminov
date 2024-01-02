@@ -11,7 +11,7 @@ const Footer = () => {
 						<div className="footer_left flex flex-col gap-4  footer__offset ">
 							<h2>Таджикистан.</h2>
 							<p>Душанбе.</p>
-							Испечак 2, м8.
+							<p>Испечак 2, м8.</p>
 						</div>
 						<div className="footer_center flex flex-col gap-4  footer__offset">
 							<h2>Tajikistan</h2>
