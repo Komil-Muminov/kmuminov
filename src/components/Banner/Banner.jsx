@@ -8,7 +8,7 @@ import {
 import { Tooltip } from "@mui/material";
 import { Link } from "react-router-dom";
 import "./Banner.css";
-import km from "../Banner/km.jpg";
+import kmResize from "./kmResizeWeb.webp";
 const Banner = () => {
 	return (
 		<>
@@ -58,14 +58,14 @@ const Banner = () => {
 						</div>
 						<div className="banner_center flex flex-wrap-reverse ">
 							<img
-								src={km}
+								src={kmResize}
 								alt="banner"
 								className="person__img mb-12 md:mb-0"
 							/>
 						</div>
 						<div className="banner_rigt flex flex-col justify-between">
 							<span className="flex flex-col items-center gap-4">
-								<Tooltip title="Пацанаки куча" disableInteractive>
+								<Tooltip title="адрес" disableInteractive>
 									<Link
 										to="https://yandex.ru/maps/10318/dushanbe/?ll=68.732958%2C38.587896&mode=routes&rtext=~38.587973%2C68.732902&rtt=auto&ruri=~&z=18.7"
 										target="_blank"

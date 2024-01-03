@@ -1,4 +1,5 @@
-import LeonardoAi from "./LeonardoAi.jpg";
+// import LeonardoAi from "./LeonardoAi.jpg";
+import Leonardo from "./LeonardoWebp.webp";
 import "./Content.css";
 import { Tooltip } from "@mui/material";
 const Content = () => {
@@ -44,7 +45,7 @@ const Content = () => {
 							</p>
 						</Tooltip>
 						<img
-							src={LeonardoAi}
+							src={Leonardo}
 							alt="leonardo_ai"
 							className=" rounded-xl md:w-1/2 md:rounded-2xl"
 						/>
