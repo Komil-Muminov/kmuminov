@@ -5,7 +5,7 @@ import "./Footer.css";
 const Footer = () => {
 	return (
 		<>
-			<footer className="footer">
+			<footer className="footer h-auto md:h-[23vh]">
 				<div className="container">
 					<div className="footer__content flex  gap-3 justify-between flex-wrap md:flex-row md:justify-between">
 						<div className="footer_left flex flex-col gap-4  footer__offset ">

@@ -8,6 +8,11 @@
 }
 
 /* NAV_LOG */
+.log_img {
+	max-width: 80px;
+	min-height: 80px;
+}
+
 .log__text {
 	color: var(--log-text);
 	font-size: 1.5rem;
